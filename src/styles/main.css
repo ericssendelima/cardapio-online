@@ -1,0 +1,30 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden
+}
+
+
+#root{
+    height: 100%;
+}
+
+p{
+    margin: 0;
+}
+
+
+/* Variáveis Globais de estilo */
+:root {
+    /* Tamanhos ds fonte */
+    --fontSize-xs: 10px;
+    --fontSize-sm: 11px;
+    --fontSize-xsm: 12px;
+    --fontSize-xxm: 13px;
+    --fontSize-md: 14px;
+    --fontSize-lg: 16px;
+    --fontSize-xlg: 18px;
+    --fontSize-xl: 20px;
+    --fontSize-xxl: 22px
+}
