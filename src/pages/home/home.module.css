@@ -144,6 +144,11 @@
     font-size: var(--fontSize-xs);
   }
 
+  .modalRoot, .header{
+    background-color: var(--mantine-color-black-1);
+    /* height: 100%; */
+  }
+
 }
 
 @media (max-width: 365px) {

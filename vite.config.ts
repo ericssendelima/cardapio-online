@@ -12,4 +12,8 @@ export default defineConfig({
       input: '/path/to/main.js',
     },
   },
+  server: {
+    host: '0.0.0.0', // Permite acesso de qualquer IP
+    port: 5173,       // Ou qualquer porta que você esteja usando
+  },
 })

@@ -63,18 +63,25 @@ const Home = () => {
           >
             Vamos começar
           </Button>
-          <span className={classes.spanButton}>Click para prosseguir</span>
+          <span className={classes.spanButton}>Clique para prosseguir</span>
         </div>
       </div>
       <Modal
         opened={opened}
         onClose={close}
-        title="This is a fullscreen modal"
         fullScreen
         radius={0}
         transitionProps={{ transition: "fade", duration: 200 }}
+        classNames={{
+          header: classes.header,
+          content: classes.modalRoot,
+        }}
+        withCloseButton={false}
       >
-        <ModalLinkPromocional />
+        <Modal.Header>
+          <span>Indique seus amigos</span>
+        </Modal.Header>
+        <ModalLinkPromocional config={close} />
       </Modal>
     </div>
   );
